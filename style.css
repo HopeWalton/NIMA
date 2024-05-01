@@ -172,21 +172,38 @@ hr.style-seven {
   color: white;
 }
 
+#index-carousel {
+  background-color: #1B2A21;
+  padding: 0;
+}
+
+.car-con{
+  max-width: 800px;
+}
+
 .carousel-caption{
   color: white;
   z-index: 1;
   font-size: 20px;
 }
 
+.carousel-item img {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .carousel-item{
   position:relative;
   display:inline-block;
 }
+
 .carousel-item:after {
   content:'';
   position:absolute;
-  left:0; top:0;
-  width:100%; height:100%;
+  left:0; 
+  top:0;
+  width:100%; 
+  height:100%;
   display:inline-block;
   background: rgba(0,0,0,.4);
 }
@@ -372,6 +389,29 @@ ul a:hover{
   color: white;
   font-size: 5rem;
 }
+
+#rec{
+  background-color: #1B2A21;
+  color: white;
+
+}
+
+.clip-path-1{
+  background-color: #23362B;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.rec-con p {
+    text-align: left;
+}
+.clip-path-2 h3{
+  text-decoration: underline dotted;
+}
+
+.rec-con .path-2{
+  text-align: right;
+}
+
 
 @media only screen and (max-width: 600px) {
   .resource-header{
